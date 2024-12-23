@@ -4,13 +4,17 @@ A scalable IoT solution for real-time Laser distance monitoring, featuring wirel
 
 ## 🌟 Key Features
 
-- Real-time distance monitoring using Laser sensors
+- Real-time distance monitoring using Laser sensors (range up to 50m)
 - Wireless sensor network 
 - Web-based dashboard for real-time data visualization
 - Multi-sensor support with automatic discovery
-- LED status indicators and remote control
-- Configurable sampling rates
+- LED status indicators with multi-color feedback:
+  - Operational status
+  - Network connectivity
+  - Data transmission
+- Configurable sampling rates up to 1000Hz
 - Battery-optimized operation
+- Truss-mounting system with adjustable clamps
 
 ## 🏗️ System Architecture
 ```mermaid
@@ -37,7 +41,9 @@ D -->|HTTP| E[Web Browser]
 
 ## 📸 Screenshots
 
-Coming soon
+![Sensor Node Design](docs/drawing.jpg)
+
+For detailed hardware documentation, see our [Hardware Drawing Documentation](docs/drawing.md)
 
 ## 🛠️ Setup Requirements
 
@@ -59,6 +65,8 @@ Coming soon
 - Sampling rates up to 1000Hz
 - Real-time data transmission
 - Low-latency updates (<100ms)
+- Distance measurement range: 0-50m
+- LED-based status monitoring system
 
 ## 🎯 Use Cases
 
